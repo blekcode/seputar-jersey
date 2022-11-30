@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  --primary: #262626;
+  --secondary: #aaefc8;
+  --secondarylight: #c1f9d9;
+  --active: #94f0bc;
+  --alter: #e1f0c7;
+  --bggray: #fafafa;
+  text-decoration: none;
+}
+.button {
+  text-decoration: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.App {
+  background-color: var(--bggray);
+}
+
+.main {
+  max-width: 768px;
+  margin: auto;
+  min-height: 100vh;
+}
+
+.layout-header {
+  width: 100%;
+  position: fixed;
+  z-index: 30;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  max-width: 768px;
+  margin: auto;
+  display: flex;
+  height: 80px;
+  background-color: var(--bggray);
+  align-items: center;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+.icon {
+  border-radius: 0px 0px 0px 20px;
+  height: 100%;
+  display: flex;
+  padding: 0px 12px;
+  align-items: center;
+}
+
+.logonav {
+  width: 20px;
+  height: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.icon-heart {
+  position: relative;
+}
+
+.dotnotif {
+  border-radius: 20px;
+  width: 5px;
+  position: absolute;
+  height: 5px;
+  background-color: #ff3232;
+  top: 2px;
+  right: 1px;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+  bottom: 0;
+  left: 0;
+}
+
+.containernav {
+  background-color: var(--alter);
+  border-radius: 20px 20px 0 0;
+  padding: 20px 0px;
+  max-width: 768px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .containernav {
+    padding: 30px 0px;
+  }
+}
+
+.iconwrapper {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.boticon {
+  font-size: 18px;
+}
+
+.active {
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bggray);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.08);
+  border: 10px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box;
+}
