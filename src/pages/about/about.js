@@ -7,7 +7,7 @@ function About() {
     <Layout>
       <div className="about-page">
         <img src="/logo.png" alt="" />
-        <h4>Kitspedia App</h4>
+        <h4>Seputar Jersey App</h4>
         <p>
           This application is useful for displaying a collection of european
           club jerseys from east side to west side
