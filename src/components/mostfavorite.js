@@ -41,7 +41,7 @@ function MostFavorite() {
           <Slider
             slidesToShow={window.innerWidth >= 480 ? 2 : 1}
             centerMode={true}
-            // arrows={false}
+            arrows={false}
             duration={200}
             overScan={2}
             centerPadding={
