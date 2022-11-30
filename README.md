@@ -1,2 +1,3 @@
-# kitspedia
-Final Assignment Mobile Device Programming
+# Seputar Jersey
+Tugas Akhir Praktikum Rekayasa Perangkat Lunak Berbasis Komponen
+
